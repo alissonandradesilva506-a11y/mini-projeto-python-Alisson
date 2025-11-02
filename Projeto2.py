@@ -39,7 +39,7 @@ while True:
       notas= [float(nota.strip()) for nota in insere_nota.split(',')]
       dados_estudantes[select_matricula].extend(notas)
       print(f"Notas registradas na matricula '{select_matricula}' com sucesso.")
-    except Erro:
+    except ValueError:
       print("Entrada inválida. Certifique-se de inserir números separados por vírgulas.")
 
   elif selecao == '3':
