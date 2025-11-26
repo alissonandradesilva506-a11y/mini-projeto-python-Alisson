@@ -176,4 +176,4 @@ while True:
    break
     
   else:
-    print("Opção inválida, por favor, tente novamente.)
+    print("Opção inválida, por favor, tente novamente.")
